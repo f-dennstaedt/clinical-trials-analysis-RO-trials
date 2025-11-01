@@ -1,0 +1,854 @@
+[
+    {
+        "id": "T1",
+        "topic_input": "Is the trial randomized?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "20a96737-a900-4a5f-a79f-35a272ba4117",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "16c2455a-d8fb-4f1e-9b76-249348b1e9e9",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T2",
+        "topic_input": "Is the trial multicentric?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "721ead35-b4ab-4aec-89eb-1d4c73c69caa",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "8e95994f-102b-4d9b-82c9-8fabc9a857b8",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T63",
+        "topic_input": "Is the planned sample size mentioned?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "4c754f24-6493-41df-a04e-b2f95c4ef199",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "3b332944-bce7-465e-a527-3230ab21009b",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T5",
+        "topic_input": "What is the planned sample size?",
+        "topic_data": "number",
+        "condition": "T63==4c754f24-6493-41df-a04e-b2f95c4ef199",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "categories": []
+    },
+    {
+        "id": "T65",
+        "topic_input": "Is the follow-up duration (median, months) mentioned?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "7a92a280-8dc2-4cac-9ece-04ad48d72eec",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "4ae5b171-1f13-4435-a6a1-7f9908a41fbf",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T7",
+        "topic_input": "What is the follow-up duration (median, months)?",
+        "topic_data": "number",
+        "condition": "T65==7a92a280-8dc2-4cac-9ece-04ad48d72eec",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "categories": []
+    },
+    {
+        "id": "T9",
+        "topic_input": "Is the tumor type NSCLC?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "8f73b703-6724-4cc3-b5a5-a58b087bfbf0",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "d4f32297-9ad2-4eb9-a3bf-4c0878435dce",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T10",
+        "topic_input": "Is the tumor type Prostate Cancer?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "2e26c191-95ba-4cfb-a210-8004aa64f6c0",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "2da45618-6ffc-40b3-a90a-29b2b8417ebb",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T11",
+        "topic_input": "Is the tumor type HNSCC?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "ad44b273-d25e-4a36-9c51-c400af813c6c",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "5109c7ae-4f55-437a-aaea-b6cf8b225445",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T12",
+        "topic_input": "Is the tumor type Glioblastoma?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "e7df35bf-a5d1-4b4d-aa82-b38f87758480",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "639a2dc7-2cbe-4b70-94f5-f8b794f4be97",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T13",
+        "topic_input": "Tumor Stage at Incluion - Localized?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "c90402bf-3fbd-444e-89d5-8e34b61a44a6",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "59c5e755-2014-4fce-bcab-21662285141e",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T14",
+        "topic_input": "Tumor Stage at Incluion - Locally Advanced?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "bdd5fc5d-ab26-4066-a54c-80c88c72262f",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "4ac09a18-14c7-4e80-8c41-e314174cfc2b",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T15",
+        "topic_input": "Tumor Stage at Inclusion - Oligometastatic?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "ff873b6d-8d63-48e2-a927-08f2e8ad5846",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "4052ec25-21fb-45cb-a2f1-49922f9eb140",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T16",
+        "topic_input": "Tumor Stage at Inclusion - Metastatic?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "5d668633-533d-48ae-82bd-16277404f18d",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "dfb255d7-31b1-4167-95c6-a24588c17b62",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T17",
+        "topic_input": "Tumor Stage at Inclusion - Recurrent?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "a4dc99f4-598e-44b6-b449-279804b7d76e",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "18879283-5cc6-4d41-9ba0-d9369b5bb61d",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T18",
+        "topic_input": "Is there a specific cancer histology defined for the trial?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "3416161f-28ea-4a3d-ae8f-1a206ff8e9bc",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "6280298d-b966-4c42-9f98-4c8d3d4c20b7",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T67",
+        "topic_input": "Is the number of patients mentioned?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "ae8a66cf-9c72-492d-9d54-3f5eb0c2a285",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "0d24a486-3ea9-472f-b28a-5515d687d3b0",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T19",
+        "topic_input": "What is the number of patients?",
+        "topic_data": "number",
+        "condition": "T67==ae8a66cf-9c72-492d-9d54-3f5eb0c2a285",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "categories": []
+    },
+    {
+        "id": "T20",
+        "topic_input": "Are older Adults (>70) included?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "357b60a5-e0c2-4334-a5fa-b97785a69520",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "ecb02fa8-e7ab-4582-9587-6abe9ad676e7",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T21",
+        "topic_input": "Biomarker-selected population?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "8740497d-d9de-4ea1-90d8-9bb1b1a66538",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "17b89c18-d57d-4ac2-a0e8-8e86c634c4a4",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T22",
+        "topic_input": "Does the Radiotherapy performed include EBRT(External Beam Radiation Therapy)?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "dd3831e3-9476-4b3e-b409-2f21ab92f550",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "6913b4bb-cee8-404b-abb5-3e219baf640d",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T23",
+        "topic_input": "Does the Radiotherapy performed include SBRT (Stereotactic Body Radiation Therapy)?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "4a57a50c-c391-4c99-9c3b-defee90e44a5",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "c25b15d4-33c1-4ed9-8e5a-5b192186a42a",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T24",
+        "topic_input": "Does the Radiotherapy performed include IMRT (Intensity-Modulated Radiation Therapy)?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "cc1494e4-6b8a-4a22-91fe-83ce1e479e66",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "24e2d5b6-09e9-41dd-9755-23cb7d96295e",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T26",
+        "topic_input": "Does the Radiotherapy performed include Protontherapy?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "1da2e17a-dd89-4359-b7cc-0e87e88ce4ff",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "8ac0de42-3ef7-42f7-8bd4-a4126e6547c0",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T27",
+        "topic_input": "Does the Radiotherapy performed include Brachytherapy?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "9d59adb5-f979-4763-84c5-70f5e7887453",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "3ebca2e4-7ccb-4b2c-a110-2cc5cda4a831",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T28",
+        "topic_input": "Does the Radiotherapy performed include MR-guided Radiotherapy?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "42974278-a85c-466b-9b6f-9f36357bfc24",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "f3e6a0da-9ed7-45e0-aa15-c4c37033722f",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T29",
+        "topic_input": "Was Hypofractionation used?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "3920a6bd-6c7f-4b9d-a233-56353220045d",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "6d10e569-232c-4425-9443-073dbea9b5b2",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T30",
+        "topic_input": "Was a radiation dose escalation used?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "03cfb826-7906-410c-9f2f-cd978e4d695e",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "585cce0e-e9b4-4fd4-8c7a-6fbf46b228c3",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T68",
+        "topic_input": "Is the dose per fraction (Gy) mentioned?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "347b1d41-91f3-41e6-ac17-18afcbde091a",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "3dc42b0b-ad78-4d72-848c-90a883ccaacc",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T31",
+        "topic_input": "What is the dose per fraction (Gy)?",
+        "topic_data": "number",
+        "condition": "T68==347b1d41-91f3-41e6-ac17-18afcbde091a",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "categories": []
+    },
+    {
+        "id": "T69",
+        "topic_input": "Is the total dose (Gy) mentioned?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "20fd7e2d-f799-4e64-89fb-14c75d734912",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "a110f7a5-30bf-4f43-80f7-0cdd816673c8",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T32",
+        "topic_input": "What is the total dose (Gy)?",
+        "topic_data": "number",
+        "condition": "T69==20fd7e2d-f799-4e64-89fb-14c75d734912",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "categories": []
+    },
+    {
+        "id": "T35",
+        "topic_input": "Is it mentioned that image guidance in the form of MRI used?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "a2362fc2-8501-43e9-bfeb-9721943b870d",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "47fa80e0-4977-4d6d-890e-a3a6d4e5417d",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T37",
+        "topic_input": "Is it mentioned that image guidance in the form of PET used?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "c09013ea-f01d-4a91-99c5-dfd71e3eed7b",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "3d243214-43e0-482b-b07a-d1da8b1ea62f",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T38",
+        "topic_input": "Was concurrent systemic therapy given?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "2ba8c22c-13dd-4807-b6d7-a609aed663c0",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "ff552fc9-9a64-4c8b-9504-59f996ea46dd",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T39",
+        "topic_input": "Was chemotherapy given?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "8a125244-0b7f-4680-ac78-e79d887dbeff",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "44e56209-e56c-443a-bb2b-02029a0a79b6",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T40",
+        "topic_input": "Was immunotherapy given?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "a7e6de25-bad2-4060-9333-faaaebb9449c",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "5dd09335-09d6-4200-ba11-2a03448b57a0",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T41",
+        "topic_input": "Was targeted therapy given?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "ddcf5ef7-5ca5-450d-a8ad-d8c0a7f52944",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "a69d6591-9461-409b-897f-16429d9b750e",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T42",
+        "topic_input": "Was hormonal therapy given?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "418a817b-5652-4534-ae4e-071b7df65774",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "02ef3ced-1d6f-451f-88eb-afec496d98ab",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T43",
+        "topic_input": "What type is the primary endpoint?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "f45f1ac2-02f7-43a0-a875-70523385d84c",
+                "name": "OS",
+                "condition": ""
+            },
+            {
+                "id": "9d6842e1-a9cb-4f71-915a-1120119952ed",
+                "name": "PFS",
+                "condition": ""
+            },
+            {
+                "id": "86e2847e-817d-4aa8-a502-ef29feb7e850",
+                "name": "DFS",
+                "condition": ""
+            },
+            {
+                "id": "89304f81-0259-4ea5-ac99-f1a6d3da0f83",
+                "name": "Tox",
+                "condition": ""
+            },
+            {
+                "id": "c3d0da2d-0636-4ea0-bfa9-0fb4e3ab8b2e",
+                "name": "QoL",
+                "condition": ""
+            },
+            {
+                "id": "424264c4-95f3-4623-8340-a12f52ad7d2a",
+                "name": "LC",
+                "condition": ""
+            },
+            {
+                "id": "31a1195f-5f5e-474c-8299-ceee70895257",
+                "name": "Other",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T70",
+        "topic_input": "Is the Hazard Ratio reported?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "8cb77ce1-bca6-472f-b29f-1309de25630c",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "03ef2912-40d2-4df6-ad1d-47bb6d3c5690",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T46",
+        "topic_input": "What is the Hazard Ratio?",
+        "topic_data": "number",
+        "condition": "T70==8cb77ce1-bca6-472f-b29f-1309de25630c",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "categories": []
+    },
+    {
+        "id": "T52",
+        "topic_input": "Is a biomarker endpoint included?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "12fc3139-9deb-438d-9c18-bdf778233477",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "84bcd606-3ffe-44b7-b7ec-0b7ff54d5cc1",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T56",
+        "topic_input": "Were advanced imaging techniques used?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "aa53ce54-3a6f-4216-a528-3e09a1185885",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "05b7c96a-8cac-4a2b-905e-32e46be55f32",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T57",
+        "topic_input": "Was Omics data used in this trial?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "3b6b33fd-200d-445d-bc54-7dc3ca1abb59",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "a006292d-9b5a-40b5-b584-420c4479af1b",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T59",
+        "topic_input": "Was a new technology introduced?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "8e7c3c75-f39a-4a54-976d-7e809963bf8f",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "9754222d-7e68-48a7-aa27-baa3b6599601",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    },
+    {
+        "id": "T60",
+        "topic_input": "Was a new technology validated?",
+        "topic_data": [],
+        "condition": "",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "categories": [
+            {
+                "id": "ecde478e-b9ac-44de-979a-6998018670c0",
+                "name": "TRUE",
+                "condition": ""
+            },
+            {
+                "id": "c6df7fc0-4473-47ad-886c-7add79985cd5",
+                "name": "FALSE",
+                "condition": ""
+            }
+        ]
+    }
+]
