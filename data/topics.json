@@ -4,7 +4,7 @@
         "topic_input": "Is the trial randomized?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "20a96737-a900-4a5f-a79f-35a272ba4117",
@@ -23,7 +23,7 @@
         "topic_input": "Is the trial multicentric?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "721ead35-b4ab-4aec-89eb-1d4c73c69caa",
@@ -42,7 +42,7 @@
         "topic_input": "Is the planned sample size mentioned?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "4c754f24-6493-41df-a04e-b2f95c4ef199",
@@ -61,7 +61,8 @@
         "topic_input": "What is the planned sample size?",
         "topic_data": "number",
         "condition": "T63==4c754f24-6493-41df-a04e-b2f95c4ef199",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. Provide the correct number value in curly brackets like this: '{NUMBERVALUE}'",
+      "outputparsing": "\\{(.*?)\\}",
         "categories": []
     },
     {
@@ -69,7 +70,7 @@
         "topic_input": "Is the follow-up duration (median, months) mentioned?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "7a92a280-8dc2-4cac-9ece-04ad48d72eec",
@@ -88,7 +89,8 @@
         "topic_input": "What is the follow-up duration (median, months)?",
         "topic_data": "number",
         "condition": "T65==7a92a280-8dc2-4cac-9ece-04ad48d72eec",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. Provide the correct number value in curly brackets like this: '{NUMBERVALUE}'",
+      "outputparsing": "\\{(.*?)\\}",
         "categories": []
     },
     {
@@ -96,7 +98,7 @@
         "topic_input": "Is the tumor type NSCLC?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "8f73b703-6724-4cc3-b5a5-a58b087bfbf0",
@@ -115,7 +117,7 @@
         "topic_input": "Is the tumor type Prostate Cancer?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "2e26c191-95ba-4cfb-a210-8004aa64f6c0",
@@ -134,7 +136,7 @@
         "topic_input": "Is the tumor type HNSCC?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "ad44b273-d25e-4a36-9c51-c400af813c6c",
@@ -153,7 +155,7 @@
         "topic_input": "Is the tumor type Glioblastoma?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "e7df35bf-a5d1-4b4d-aa82-b38f87758480",
@@ -172,7 +174,7 @@
         "topic_input": "Tumor Stage at Incluion - Localized?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "c90402bf-3fbd-444e-89d5-8e34b61a44a6",
@@ -191,7 +193,7 @@
         "topic_input": "Tumor Stage at Incluion - Locally Advanced?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "bdd5fc5d-ab26-4066-a54c-80c88c72262f",
@@ -210,7 +212,7 @@
         "topic_input": "Tumor Stage at Inclusion - Oligometastatic?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "ff873b6d-8d63-48e2-a927-08f2e8ad5846",
@@ -229,7 +231,7 @@
         "topic_input": "Tumor Stage at Inclusion - Metastatic?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "5d668633-533d-48ae-82bd-16277404f18d",
@@ -248,7 +250,7 @@
         "topic_input": "Tumor Stage at Inclusion - Recurrent?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "a4dc99f4-598e-44b6-b449-279804b7d76e",
@@ -267,7 +269,7 @@
         "topic_input": "Is there a specific cancer histology defined for the trial?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "3416161f-28ea-4a3d-ae8f-1a206ff8e9bc",
@@ -282,38 +284,11 @@
         ]
     },
     {
-        "id": "T67",
-        "topic_input": "Is the number of patients mentioned?",
-        "topic_data": [],
-        "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
-        "categories": [
-            {
-                "id": "ae8a66cf-9c72-492d-9d54-3f5eb0c2a285",
-                "name": "TRUE",
-                "condition": ""
-            },
-            {
-                "id": "0d24a486-3ea9-472f-b28a-5515d687d3b0",
-                "name": "FALSE",
-                "condition": ""
-            }
-        ]
-    },
-    {
-        "id": "T19",
-        "topic_input": "What is the number of patients?",
-        "topic_data": "number",
-        "condition": "T67==ae8a66cf-9c72-492d-9d54-3f5eb0c2a285",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
-        "categories": []
-    },
-    {
         "id": "T20",
         "topic_input": "Are older Adults (>70) included?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "357b60a5-e0c2-4334-a5fa-b97785a69520",
@@ -332,7 +307,7 @@
         "topic_input": "Biomarker-selected population?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "8740497d-d9de-4ea1-90d8-9bb1b1a66538",
@@ -351,7 +326,7 @@
         "topic_input": "Does the Radiotherapy performed include EBRT(External Beam Radiation Therapy)?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "dd3831e3-9476-4b3e-b409-2f21ab92f550",
@@ -370,7 +345,7 @@
         "topic_input": "Does the Radiotherapy performed include SBRT (Stereotactic Body Radiation Therapy)?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "4a57a50c-c391-4c99-9c3b-defee90e44a5",
@@ -389,7 +364,7 @@
         "topic_input": "Does the Radiotherapy performed include IMRT (Intensity-Modulated Radiation Therapy)?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "cc1494e4-6b8a-4a22-91fe-83ce1e479e66",
@@ -408,7 +383,7 @@
         "topic_input": "Does the Radiotherapy performed include Protontherapy?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "1da2e17a-dd89-4359-b7cc-0e87e88ce4ff",
@@ -427,7 +402,7 @@
         "topic_input": "Does the Radiotherapy performed include Brachytherapy?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "9d59adb5-f979-4763-84c5-70f5e7887453",
@@ -446,7 +421,7 @@
         "topic_input": "Does the Radiotherapy performed include MR-guided Radiotherapy?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "42974278-a85c-466b-9b6f-9f36357bfc24",
@@ -465,7 +440,7 @@
         "topic_input": "Was Hypofractionation used?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "3920a6bd-6c7f-4b9d-a233-56353220045d",
@@ -484,7 +459,7 @@
         "topic_input": "Was a radiation dose escalation used?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "03cfb826-7906-410c-9f2f-cd978e4d695e",
@@ -503,7 +478,7 @@
         "topic_input": "Is the dose per fraction (Gy) mentioned?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "347b1d41-91f3-41e6-ac17-18afcbde091a",
@@ -522,7 +497,8 @@
         "topic_input": "What is the dose per fraction (Gy)?",
         "topic_data": "number",
         "condition": "T68==347b1d41-91f3-41e6-ac17-18afcbde091a",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. Provide the correct number value in curly brackets like this: '{NUMBERVALUE}'",
+      "outputparsing": "\\{(.*?)\\}",
         "categories": []
     },
     {
@@ -530,7 +506,7 @@
         "topic_input": "Is the total dose (Gy) mentioned?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "20fd7e2d-f799-4e64-89fb-14c75d734912",
@@ -549,7 +525,8 @@
         "topic_input": "What is the total dose (Gy)?",
         "topic_data": "number",
         "condition": "T69==20fd7e2d-f799-4e64-89fb-14c75d734912",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. Provide the correct number value in curly brackets like this: '{NUMBERVALUE}'",
+      "outputparsing": "\\{(.*?)\\}",
         "categories": []
     },
     {
@@ -557,7 +534,7 @@
         "topic_input": "Is it mentioned that image guidance in the form of MRI used?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "a2362fc2-8501-43e9-bfeb-9721943b870d",
@@ -576,7 +553,7 @@
         "topic_input": "Is it mentioned that image guidance in the form of PET used?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "c09013ea-f01d-4a91-99c5-dfd71e3eed7b",
@@ -595,7 +572,7 @@
         "topic_input": "Was concurrent systemic therapy given?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "2ba8c22c-13dd-4807-b6d7-a609aed663c0",
@@ -614,7 +591,7 @@
         "topic_input": "Was chemotherapy given?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "8a125244-0b7f-4680-ac78-e79d887dbeff",
@@ -633,7 +610,7 @@
         "topic_input": "Was immunotherapy given?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "a7e6de25-bad2-4060-9333-faaaebb9449c",
@@ -652,7 +629,7 @@
         "topic_input": "Was targeted therapy given?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "ddcf5ef7-5ca5-450d-a8ad-d8c0a7f52944",
@@ -671,7 +648,7 @@
         "topic_input": "Was hormonal therapy given?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "418a817b-5652-4534-ae4e-071b7df65774",
@@ -690,7 +667,7 @@
         "topic_input": "What type is the primary endpoint?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "f45f1ac2-02f7-43a0-a875-70523385d84c",
@@ -734,7 +711,7 @@
         "topic_input": "Is the Hazard Ratio reported?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "8cb77ce1-bca6-472f-b29f-1309de25630c",
@@ -753,7 +730,8 @@
         "topic_input": "What is the Hazard Ratio?",
         "topic_data": "number",
         "condition": "T70==8cb77ce1-bca6-472f-b29f-1309de25630c",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. ANSWER: The correct value for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct number value for the topic. The topic of the extraction is '[TOPIC]'. QUESTION: The text for the extraction is '[TEXT]'. Provide the correct number value in curly brackets like this: '{NUMBERVALUE}'",
+      "outputparsing": "\\{(.*?)\\}",
         "categories": []
     },
     {
@@ -761,7 +739,7 @@
         "topic_input": "Is a biomarker endpoint included?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "12fc3139-9deb-438d-9c18-bdf778233477",
@@ -780,7 +758,7 @@
         "topic_input": "Were advanced imaging techniques used?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "aa53ce54-3a6f-4216-a528-3e09a1185885",
@@ -799,7 +777,7 @@
         "topic_input": "Was Omics data used in this trial?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "3b6b33fd-200d-445d-bc54-7dc3ca1abb59",
@@ -818,7 +796,7 @@
         "topic_input": "Was a new technology introduced?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "8e7c3c75-f39a-4a54-976d-7e809963bf8f",
@@ -837,7 +815,7 @@
         "topic_input": "Was a new technology validated?",
         "topic_data": [],
         "condition": "",
-        "prompt": "INSTRUCTION: You are a helpful extractor. You select the correct of the possible categories for classifying a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. ANSWER: The correct category for this text is '",
+        "prompt": "INSTRUCTION: You are a helpful classifier. You select the correct category for a piece of text. The topic of the classification is '[TOPIC]'. The allowed categories are '[CATEGORIES]'. QUESTION: The text to be classified is '[TEXT]'. Choose exactly one of the allowed categories and provide only the answer option in curly brackets like this: '{ANSWERLETTER}'", "outputparsing": "\\{(.*?)\\}", 
         "categories": [
             {
                 "id": "ecde478e-b9ac-44de-979a-6998018670c0",
